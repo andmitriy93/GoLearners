@@ -1,3 +1,3 @@
-module example.com/
+module example.com/m
 
 go 1.18
