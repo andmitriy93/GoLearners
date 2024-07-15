@@ -6,7 +6,6 @@ type dog struct {
 	first string
 }
 
-
 func (d dog) run() {
 	fmt.Println("My name is", d.first, "and I'm running.")
 }
@@ -22,12 +21,11 @@ func youngRun(y youngin) {
 
 func main() {
 	d1 := dog{"Henry"}
-	d1.walk()
+	// d1.walk()
 	d1.run()
 
 	d2 := dog{"Padget"}
-	d2.walk()
+	// d2.walk()
 	d2.run()
-	youngRun(d2)
+	// youngRun(d2)
 }
-
